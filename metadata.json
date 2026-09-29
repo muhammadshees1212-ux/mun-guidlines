@@ -1,0 +1,6 @@
+{
+  "name": "MUN Guidelines & Parliamentary Archive",
+  "description": "Comprehensive Model United Nations guidelines, searchable Rules of Procedure (RoP) archive, downloadable resolution templates, HDs contact directory, and parliamentary procedure member discussion chamber.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
