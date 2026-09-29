@@ -85,11 +85,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-amber-400 animate-pulse" />
               <span className="font-display font-bold text-sm text-white uppercase tracking-wider">
-                Head Delegates (HDs) Direct Contact Helpline
+                Head Delegates (HDs) Contact Numbers
               </span>
             </div>
             <span className="text-xs text-slate-400">
-              Immediate consultation for committee disputes, RoP training & crisis arbitration
+              Direct phone and WhatsApp contact
             </span>
           </div>
 
@@ -104,7 +104,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                     {hd.name}
                   </div>
                   <div className="text-[10px] text-amber-400 font-medium">
-                    {hd.role.split('·')[1]?.trim() || 'Head Delegate'}
+                    Head Delegate (HD)
                   </div>
                   <a 
                     href={`tel:${hd.phone}`}

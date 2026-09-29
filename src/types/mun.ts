@@ -5,11 +5,11 @@ export interface HeadDelegate {
   phone: string;
   phoneDisplay: string;
   whatsappLink: string;
-  email: string;
-  specialization: string[];
-  bio: string;
-  conferencesChaired: number;
-  availableHours: string;
+  email?: string;
+  specialization?: string[];
+  bio?: string;
+  delegationRole?: string;
+  availableHours?: string;
 }
 
 export type RoPCategory = 

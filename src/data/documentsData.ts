@@ -22,10 +22,10 @@ DIPLOMATIA MODEL UNITED NATIONS SECRETARIAT & DIRECTORATE
 OFFICIAL PARLIAMENTARY HANDBOOK · 2026 MASTER COMPENDIUM
 ================================================================================
 
-CHIEF DIRECTORS & PARLIAMENTARY ARBITERS:
-- Abdul Rafay (+92 323 8874600) · Executive Directorate & Strategy
-- Abdul Rehman (+92 314 3882579) · Rules of Procedure & Secretariat Chief
-- Musa Adnan (+92 313 7369696) · Parliamentary Affairs & Crisis Master
+HEAD DELEGATES (HDs):
+- Abdul Rafay (+92 323 8874600) · Head Delegate
+- Abdul Rehman (+92 314 3882579) · Head Delegate
+- Musa Adnan (+92 313 7369696) · Head Delegate
 
 --------------------------------------------------------------------------------
 TABLE OF CONTENTS:
@@ -92,7 +92,7 @@ Contested by one or more sponsors; requires 2 speakers in favor, 2 against,
 and a simple majority vote of the entire committee.
 
 --------------------------------------------------------------------------------
-AUTHENTICATED BY THE HEAD DELEGATES DIRECTORATE
+AUTHENTICATED BY THE HEAD DELEGATES
 Abdul Rafay · Abdul Rehman · Musa Adnan
 Diplomatia Model United Nations Group © 2026
 `
@@ -279,7 +279,7 @@ SECURITY COUNCIL CHAPTER VII (Binding Enforcement Powers):
 - Enforces
 - Sanctions
 
-AUTHENTICATED BY HD ABDUL REHMAN (Rules & Procedure Chief)
+AUTHENTICATED BY HD ABDUL REHMAN
 `
   },
   {
@@ -430,7 +430,7 @@ Abdul Rafay: +92 323 8874600 | Abdul Rehman: +92 314 3882579 | Musa Adnan: +92 3
     ],
     content: `================================================================================
 CRISIS COMMITTEE DIRECTIVES & TACTICAL ACTION KIT
-CURATED BY HD MUSA ADNAN (PARLIAMENTARY AFFAIRS & CRISIS MASTER)
+CURATED BY HD MUSA ADNAN
 ================================================================================
 
 SECTION 1: JOINT DIRECTIVE TEMPLATE (Voted on by Cabinet)

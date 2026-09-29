@@ -145,21 +145,21 @@ export const ParliamentaryChat: React.FC<ParliamentaryChatProps> = ({
 
         if (mentionsMusa) {
           responderName = 'Musa Adnan';
-          responderRole = 'Head Delegate (HD) · Parliamentary Affairs & Crisis Master';
+          responderRole = 'Head Delegate (HD)';
           responderAvatar = 'bg-red-700';
-          replyContent = `Excellent point, ${userName}! In high-tempo debate and continuous crisis, procedural agility is paramount. Keep your directives concise and well-scoped. Reach out on WhatsApp (+92 313 7369696) anytime for crisis directives review!`;
+          replyContent = `In high-tempo debate and continuous crisis, procedural agility is paramount. Keep your directives concise and well-scoped. Reach out on WhatsApp (+92 313 7369696) anytime for consultation!`;
           citationId = 'rop-crisis-directive';
         } else if (mentionsRafay) {
           responderName = 'Abdul Rafay';
-          responderRole = 'Head Delegate (HD) · Strategy & Directorate';
+          responderRole = 'Head Delegate (HD)';
           responderAvatar = 'bg-cyan-700';
-          replyContent = `Strategic observation, ${userName}. Keep control of the General Speakers List and use unmoderated caucuses to consolidate sponsors. Feel free to call or WhatsApp me at +92 323 8874600 for strategy consultation!`;
+          replyContent = `Keep control of the General Speakers List and use unmoderated caucuses to consolidate sponsors. Feel free to call or WhatsApp me at +92 323 8874600 for consultation!`;
           citationId = 'rop-mod-caucus';
         } else {
           responderName = 'Abdul Rehman';
-          responderRole = 'Head Delegate (HD) · Secretariat Chief';
+          responderRole = 'Head Delegate (HD)';
           responderAvatar = 'bg-amber-600';
-          replyContent = `Insightful inquiry, ${userName}! Under codified Rules of Procedure, procedural points take strict precedence over substantive business. Always state the rule number clearly to the Dais. Feel free to reach me at +92 314 3882579 for any procedural clarification!`;
+          replyContent = `Under codified Rules of Procedure, procedural points take strict precedence over substantive business. Always state the rule number clearly to the Dais. Feel free to reach me at +92 314 3882579 for any procedural clarification!`;
           citationId = 'rop-point-of-order';
         }
 
@@ -168,7 +168,7 @@ export const ParliamentaryChat: React.FC<ParliamentaryChatProps> = ({
           channelId: currentChannel.id,
           senderName: responderName,
           senderRole: responderRole,
-          senderCountry: 'Executive Board',
+          senderCountry: 'Head Delegate (HD)',
           avatarBg: responderAvatar,
           timestamp: 'Just now',
           content: replyContent,
@@ -543,8 +543,8 @@ export const ParliamentaryChat: React.FC<ParliamentaryChatProps> = ({
                                   {msg.senderName}
                                 </span>
                                 {isHd && (
-                                  <span className="text-[10px] font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30 px-1.5 py-0.2 rounded">
-                                    HD Directorate
+                                  <span className="text-[10px] font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/30 px-1.5 py-0.5 rounded">
+                                    HD
                                   </span>
                                 )}
                               </div>

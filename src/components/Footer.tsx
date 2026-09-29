@@ -25,13 +25,13 @@ export const Footer: React.FC = () => {
           {/* Col 2: Head Delegates Directory */}
           <div className="md:col-span-2">
             <h4 className="font-display font-bold text-white text-xs uppercase tracking-wider mb-3">
-              Executive Head Delegates (HDs) Directory
+              Head Delegates (HDs)
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {HEAD_DELEGATES.map(hd => (
                 <div key={hd.id} className="p-3 bg-slate-900/60 rounded-lg border border-slate-800">
                   <div className="font-bold text-white text-xs">{hd.name}</div>
-                  <div className="text-[10px] text-amber-400">{hd.role.split('·')[0]}</div>
+                  <div className="text-[10px] text-amber-400">Head Delegate (HD)</div>
                   <a 
                     href={`tel:${hd.phone}`} 
                     className="mt-1 font-mono text-[11px] text-slate-300 hover:text-white block"
